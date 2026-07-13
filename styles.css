@@ -301,9 +301,75 @@ p {
 
 /* Pricing Section Ends */
 
+/* Placeholder section from chatgpt */
+
+/* Why Attend Section Starts */
+
+.why-section{
+    max-width: 1200px;
+    margin: auto;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.why-section h2{
+    font-size: 42px;
+    font-weight: 700;
+    color: #0D1B2A;
+    margin-bottom: 16px;
+}
+
+.why-description{
+    font-size: 18px;
+    color: #575757;
+    max-width: 700px;
+    margin: 0 auto 50px;
+}
+
+.why-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.why-card{
+    background-color: white;
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+    padding: 32px;
+    text-align: center;
+}
+
+.why-card:hover{
+    border-color: #2563EB;
+}
+
+.icon{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.why-card h3{
+    font-size: 24px;
+    color: #0D1B2A;
+    margin-bottom: 16px;
+}
+
+.why-card p{
+    font-size: 16px;
+    color: #575757;
+    line-height: 26px;
+    margin-bottom: 0;
+}
+
+/* Why Attend Section Ends */
+
+
+
+
 /* Footer Starts */
 
-.footer{
+footer{
     background-color: #0D1B2A;
     padding: 30px 20px;
 }
